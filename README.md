@@ -17,8 +17,8 @@ Please note that the resulting model is not normalized by channel means/stds, i.
 
 | Model                           	| ImageNet-val 	| Shape-Bias 	| Mean OOD 	|
 |---------------------------------	|--------------	|------------	|----------	|
-| RN-50 (90 Epoch with AMP) - eval w/ noise  	| 51.64 %        	| 0.73       	| 46.63 %   	|
-| RN-50 (90 Epoch w/ AMP) - eval w/o noise 	| 67.22 %      	| 0.51       	| 56.06 %   	|
+| RN-50 (90 Epoch) - eval with noise  	| 51.64 %        	| 0.73       	| 46.63 %   	|
+| RN-50 (90 Epoch) - eval w/o noise 	| 67.22 %      	| 0.51       	| 56.06 %   	|
 
 Please note that the evaluation with noise will give you slightly different results based due to the non-deterministic nature of noise.
 
