@@ -20,6 +20,8 @@ Please note that the resulting model is not normalized by channel means/stds, i.
 | RN-50 (90 Epoch) - eval with noise  	| 51.64 %        	| 0.73       	| 46.63 %   	|
 | RN-50 (90 Epoch) - eval w/o noise 	| 67.22 %      	| 0.51       	| 56.06 %   	|
 
+The checkpoint is available on [HuggingFace](https://huggingface.co/paulgavrikov/resnet50.in1k_diffusionnoise_90ep/blob/main/resnet50_diffusionnoise_nonorm_last.pth).
+
 Please note that the evaluation with noise will give you slightly different results based due to the non-deterministic nature of noise.
 
 #### Differences to original publication/codebase
